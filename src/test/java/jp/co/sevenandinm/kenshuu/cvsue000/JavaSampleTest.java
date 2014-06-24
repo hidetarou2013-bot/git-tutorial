@@ -27,8 +27,8 @@ public class JavaSampleTest {
 
 		JavaSample action = new JavaSample();
 		double ret = action.method1(1.0, 0.1, 9);
-		
-		assertEquals(null,0.1,ret, 0);
+		// deltaはおそらく誤差だろう
+		assertEquals(null,0.1,ret, 0.01);
 	}
 
 }
