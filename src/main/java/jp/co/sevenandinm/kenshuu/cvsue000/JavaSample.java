@@ -26,6 +26,9 @@ public class JavaSample {
 		int intNine = 9;
 		double ret_1 = method1(dA, dB, intNine);
 		System.out.println(ret_1);
+		if(ret_1==0.1){
+			System.out.println("OK:0.1");
+		}
 	}
 
 	/**
