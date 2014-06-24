@@ -2,4 +2,5 @@ git-tutorial
 feature-A
 fix-B
 fix-C
-feature-A
+feature-C
+feature-D
