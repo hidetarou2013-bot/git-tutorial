@@ -19,7 +19,7 @@ public class JavaSample {
 	/**
 	 * execute.
 	 */
-	private void execute() {
+	public void execute() {
 		// TODO 自動生成されたメソッド・スタブ
 		double dA = 1.0;
 		double dB = 0.1;
@@ -35,7 +35,7 @@ public class JavaSample {
 	 * @param intNine intNine
 	 * @return double ret
 	 */
-	private double method1(
+	public double method1(
 			final double dA, final double dB, final int intNine) {
 		// TODO 自動生成されたメソッド・スタブ
 		double ret = 0.0;
